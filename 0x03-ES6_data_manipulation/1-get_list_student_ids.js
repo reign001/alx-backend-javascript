@@ -1,5 +1,5 @@
-/*
-*retrieves ids from a list of students.
+/**
+ * Retrieves ids from a list of students.
  * @param {{
  *   id: Number,
  *   firstName: String,
@@ -8,12 +8,9 @@
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  * @returns
  */
-export default function getListStudentIds(array) {
-  if (!Array.isArray(array)) {
-    return [] 
-} 
-{ 
-   return array.map((a) => a.id)
+export default function getListStudentIds(students) {
+  if (students instanceof Array) {
+    return students.map((student) => student.id);
   }
   return [];
-};
+}
