@@ -15,5 +15,18 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0"
-  }
+  },
+  "name": "nodejs",
+  "description": "backend with node.js",
+  "version": "12.11.1",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "alx-backend-javascript"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "reign001",
+  "license": "BSD-2-Clause"
 }
